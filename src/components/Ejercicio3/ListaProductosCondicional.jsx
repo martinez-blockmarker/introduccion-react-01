@@ -6,8 +6,8 @@ export default function ListaProductosCondicional(props) {
         <p>No hay elementos en la lista.</p>
       ) : (
         <ul>
-          {props.productos.map((producto, index) => (
-            <li key={index}>{producto}</li>
+          {props.productos.map((producto, ListaProductosCondicional) => (
+            <li key={ListaProductosCondicional}>{producto}</li>
           ))}
         </ul>
       )}

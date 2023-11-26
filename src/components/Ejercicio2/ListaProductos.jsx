@@ -3,8 +3,8 @@ export default function ListaProductos(props) {
     <div>
       <h3>Lista de Productos</h3>
       <ul>
-        {props.productos.map((producto, index) => (
-          <li key={index}>{producto}</li>
+        {props.productos.map((producto,ListaProductos ) => (
+          <li key={ListaProductos}>{producto}</li>
         ))}
       </ul>
     </div>
