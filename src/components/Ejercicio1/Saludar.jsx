@@ -1,3 +1,3 @@
 export default function Saludar(props) {
-    return <h2 className="titulo-ejercicio">Hola{props.nombre}</h2>
+    return <h1> Soy Batman{props.nombre}</h1>
 }
